@@ -22,18 +22,18 @@
 
 .Title{
     color:#F6F6F6;
-    width: 150px;
+    width: 60%;
     height: 52px;
     display: inline-block;
     margin: 20px;
-    margin-top: 250px;
+    margin-top: 260px;
     font-family: Montserrat;
+    font-weight: 600;
 }
 
 @media (max-device-width : 480px) {
     .Icons{
         margin: 20px;
-        height: 280px;
     }
     
     .Title{
