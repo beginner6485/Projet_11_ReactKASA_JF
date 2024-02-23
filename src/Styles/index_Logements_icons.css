@@ -1,0 +1,53 @@
+.Background_icons{
+    width: auto;
+    height: auto;
+    background-color: #F6F6F6;
+    margin-top: 40px;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+.Icons{
+    width: 320px;
+    height: 320px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #F44336, rgba(0, 0, 0, 0.2) 100%);
+    margin:40px;
+    background-size: cover;
+
+}
+
+.Title{
+    color:#F6F6F6;
+    width: 150px;
+    height: 52px;
+    display: inline-block;
+    margin: 20px;
+    margin-top: 250px;
+    font-family: Montserrat;
+}
+
+@media (max-device-width : 480px) {
+    .Icons{
+        margin: 20px;
+        height: 280px;
+    }
+    
+    .Title{
+    position: absolute;
+    font-size: larger;
+    font-family: Montserrat;
+
+    width: 60%;
+    margin-bottom: 20px;
+    }
+
+    .Background_icons{
+    background-color:white;
+    margin-top: 0;
+    }
+
+}

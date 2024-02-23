@@ -1,0 +1,253 @@
+.BannerLog{
+    width: auto;
+}
+
+.title_space{
+    display: flex;
+    justify-content: space-between;
+    color: #FF6060;
+    font-family: 'Montserrat';
+    height: auto;
+    width: 100%;
+}
+
+.avatar_name{
+    align-self: center;
+    margin-right: 10px;
+    text-align: end;
+    font-size: medium;
+    color: #FF6060;
+    font-family: montserrat;
+}
+
+.avatar-bubble {
+    width: 1.8cm; 
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.localization_space{
+    display: flex;
+    width: 100%;
+}
+
+.modules-spaces{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.location_info{
+    width: 80%;
+}
+
+.avatar_space{
+    display: flex;
+    height: 70%;
+    align-self: end;
+}
+
+.star_space{
+    height: 30%;
+    align-self: flex-end;
+    font-size: large;
+}
+
+.avatar {
+    align-self: center;
+  }
+
+.critere_space{
+    display: flex;
+    align-items: center;
+}
+
+.critere{
+    border-radius: 20px;
+    background-color: #FF6060;
+    color: white;
+    padding: 5px;
+    width: 20%;
+    text-align: -webkit-center;
+    margin: 10px;
+    align-self: center;
+    font-family: montserrat;
+}
+
+.Img_Background{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.title_log{
+      color: #FF6060;
+      font-family: 'Montserrat';
+      font-size: larger;
+      font-weight: 550;
+      height: auto;
+}
+
+.filled{
+    color: #FF6060;
+}
+
+.empty{
+    color: #F6F6F6;
+}
+
+.description_banner{
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+
+.bubble{
+    width: 90%;
+    border-radius: 10px;
+    padding: 5px;
+    height: 20px;
+    color: white;
+    margin-right: 50px;
+    font-family: Montserrat;
+    height: 100%;
+}
+
+.BannerSpace{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.fa{
+    font-size: xxx-large;
+    color: #ae2828;
+    position: absolute;
+    display: flex;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.right{
+   right: 0;
+}
+
+.left{
+    left: 0;
+}
+
+.equip{
+    display: flex;
+    flex-direction: column;
+}
+
+.rating-container{
+    margin-left: auto;
+}
+
+.star{
+    margin-right: 3px;
+    font-size: larger;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 450px) {
+
+    .fa{
+        margin: 5px;
+    }
+
+    .BannerSpace{
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+    }
+
+    .Img_Background{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        
+    }
+
+    .title_space{
+        font-size:smaller;
+
+    }
+
+    .title_log{
+        font-size: small;
+    }
+
+    .avatar{
+        width: 1cm;
+        height: 1cm;
+    }
+
+    .avatar_name{
+        width: min-content;
+    }
+
+    .title_space_items{
+        font-size: 15px;
+    }
+
+    .critere{
+        font-family: Montserrat;
+        width: 30%;
+        font-size: small;
+        border-radius: 10px;
+    }
+
+    .description_banner{
+        flex-direction: column;
+    }
+
+    .bubble{
+        margin-top: 15px;
+        width: 100%;
+        padding: 0;
+        height: 100%;
+    }
+
+    .localization_space{
+        flex-direction: column;
+    }
+
+    .modules-spaces{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .location_info{
+        width: 100%;
+    }
+
+    .title_log{
+        font-size: medium;
+    }
+
+    .title_space{
+        height: auto;
+    }
+
+    .star{
+        vertical-align: super;
+    }
+
+    
+    }

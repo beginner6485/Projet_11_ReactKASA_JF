@@ -1,0 +1,87 @@
+    .module{
+        margin-top: 100px;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 100px;
+    }
+
+    .moduleSpace{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        transition: background-color 0.3s ease;
+    }
+
+    .moduleSpace.expanded {
+        background-color: #ccc;
+        height: 100%;
+    }
+
+    .expanded{
+        height: 100%;
+    }
+
+    .moduleTitle{
+        color: #FFFFFF;
+        border-radius: 5px;
+        font-family: montserrat;
+        font-size: 24px;
+        width: 100%;
+    }
+
+    .icon{
+        margin-right: 10px;
+        size:2em;
+        font-size: x-large;
+        color: #FFFFFF;
+        margin-top: 5px;
+    }
+
+    .text{
+        margin: 20px;
+        display: inline-block;
+        color: #FF6060;
+        letter-spacing: 0.5px;
+        font-family: 'Montserrat';
+        font-size: 24px;
+        line-height: 142.6%;
+    }
+
+    .TextStyle{
+        color:#FF6060;
+        display: inline-block;
+        text-align: justify;
+        width: 95%;
+        padding-left: 10px;
+    }
+
+    .Chevron{
+        margin-right: 10px;
+        align-self: center;
+    }
+
+    .chevronHeader{
+        display: flex;
+        justify-content: space-between;
+        height: 40px;
+        align-items: center;
+        border: solid #FF6060;
+        background-color: #FF6060;
+        border-radius: 10px;
+    }
+
+
+    .title{
+        width: 100%;
+        background-color: #F6F6F6;
+        border-radius: 10px;
+    }
+
+@media screen and (min-width: 320px) and (max-width: 899px) {
+
+    
+}

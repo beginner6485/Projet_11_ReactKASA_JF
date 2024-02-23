@@ -1,0 +1,72 @@
+.Banner{
+    width: 100%;
+    background-color: grey;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    height: 250px;
+    object-fit: contain;
+    align-self: center;
+}
+
+.Text_Img{
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    font-family: Montserrat;
+    margin: 10px;
+    align-items: center;
+}
+
+.Img_landscape{
+    position: absolute;
+    width: 100%;
+    height: 850px;
+    top: -350px;
+    filter: brightness(0.9);
+    opacity: 0.7;
+}
+
+
+.BodyBanner{
+    overflow: hidden;
+    display: contents;
+    width: auto;
+}
+
+.Img_landscape{
+    width: none;
+    height: none;
+    top: none;
+    left: none;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 899px) {
+
+    .BodyBanner{
+        margin: 25px;
+        display: block;
+        
+    }
+
+    .Banner{
+        height: 100px;
+    }
+
+    .Img_landscape{
+        object-fit: contain;
+    }
+
+    .Text_Img{
+       font-size: 20px;
+       width: 60%;
+       text-wrap: balance;
+    }
+    
+}
+
