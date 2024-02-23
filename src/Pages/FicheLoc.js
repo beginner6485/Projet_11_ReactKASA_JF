@@ -16,7 +16,6 @@ function FicheLocations() {
 
   const logement = Logements.find(item => item.id === id);   
    
-  
   if (!isIdValidate){
     return <Error id={id} />
   }
